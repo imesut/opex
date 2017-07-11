@@ -1,3 +1,8 @@
+import time
+import os
+
+os.system("")
+
 print("hello world")
 
 def repeat(number):
@@ -5,10 +10,12 @@ def repeat(number):
         print("hello")
 
 
-def program()
+def program():
+    time.sleep(5)
+    print("your file is prepared")
 
-import os
 
 # Pseudo-Downloaded file
 os.system("touch dosya.txt")
-
+program()
+os.system("my dosya.txt sinema/23.txt")
