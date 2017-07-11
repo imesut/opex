@@ -16,7 +16,9 @@ def program(dosya):
     print("your file is prepared")
 
 
-# Pseudo-Downloaded file
-os.system("touch dosya.txt")
-program("dosya.txt")
-os.system("mv output.txt sinema/23.txt")
+def process(dosya, output):
+    os.system("touch " + dosya)
+    program(dosya)
+    os.system("mv output.txt sinema/" + output)
+
+process("dosya.txt", "23.txt")
