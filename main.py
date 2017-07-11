@@ -4,5 +4,6 @@ def repeat(number):
     for i in range(number):
         print("hello")
 
+import os
 
-repeat(3)
+os.system("touch dosya.txt")
