@@ -1,9 +1,7 @@
 import time
 import os
 
-os.system("")
-
-print("hello world")
+os.system("mkdir sinema")
 
 def repeat(number):
     for i in range(number):
@@ -18,4 +16,4 @@ def program():
 # Pseudo-Downloaded file
 os.system("touch dosya.txt")
 program()
-os.system("my dosya.txt sinema/23.txt")
+os.system("mv dosya.txt sinema/23.txt")
