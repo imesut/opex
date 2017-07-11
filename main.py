@@ -1,7 +1,8 @@
 import time
 import os
 
-os.system("mkdir sinema")
+if not os.path.exists("sinema"):
+    os.system("mkdir sinema")
 
 def repeat(number):
     for i in range(number):
